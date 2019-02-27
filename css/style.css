@@ -212,9 +212,9 @@ p {
   flex: 1;
 }
 
-#price .price-text {
+/* #price .price-text {
   padding: 1 rem;
-}
+} */
 
 #price .price-img {
   background: url("../img/price.jpg") no-repeat center center/cover;
