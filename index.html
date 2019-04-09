@@ -15,15 +15,21 @@
     <title>CLONEE COMPUTERS| Sales & Service</title>
   </head>
   <body id="home">
+
+    <div class="nav">
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle">
+    </div>
+
     <nav id="navbar">
       <!-- Company Logo -->
       <h1 class="logo">
-        <span class="text-primary"> <i class="fas fa-laptop"></i> CLONEE</span
-        > COMPUTERS
+        <span class=""> <i class="fas fa-laptop"></i> CCOMP</span
+        > 
       </h1>
 
       <!-- Nav links -->
-      <ul>
+      <ul id="menu">
         <li><a href="#home">Home</a></li>
         <li><a href="#service">Services</a></li>
         <li><a href="#who">Prices</a></li>
@@ -35,22 +41,26 @@
     <!-- ------------Header Landing Page------------ -->
     <header id="showcase">
       <div class="showcase-content">
-        <h1 class="lrg-heading">
-          One Stop Service and Sales
-        </h1>
-        <p class="lead">
-            Need to repair, or replace your laptop hardware? At Clonee Computers we offer service and repair quickly and efficiently.
-        </p>
-        <a href="#service" class="btn">Our Services</a>
+        <div class="show-container">
+            <h1 class="lrg-heading">
+                Clonee Computers
+              </h1>
+              <p class="lead">
+                  Need to repair, or replace your laptop hardware? At Clonee Computers we offer service and repair quickly and efficiently.
+              </p>
+              <a href="#service" class="btn">Our Services</a>
+
+        </div>
+        
       </div>
     </header>
 
     <!-- ---------What We Do Section---------- -->
 
-    <section id="service" class="bg-light py-1">
+    <section id="service" class="bg-light py-3">
       <div class="container">
         <h2 class="md-heading text-center">
-          <span class="text-primary">Our</span> Services
+          Our Services
         </h2>
 
         <div class="items">
@@ -83,9 +93,9 @@
             </div>
             
           </div>
-        </div>
+        <!-- </div>
 
-        <div class="items">
+        <div class="items"> -->
           <div class="item">
             <i class="fas fa-microchip fa-2x"></i>
             <div>
@@ -122,45 +132,51 @@
 
     <!-- ------------Company -->
     <section id="who">
-      <div class="comp-img">
-        <!-- <img src="/img/company.jpeg" alt=""> -->
-      </div>
-      <div class="who-text bg-dark p-2">
-        <h2 class="md-heading"><span class="text-primary">Our</span> Company</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
-          obcaecati nobis atque excepturi doloremque veritatis similique
-          mollitia cum non? Temporibus voluptas magni iusto culpa quasi, officia
-          accusamus voluptatibus voluptates maxime.
-        </p>
+      <div class="whos">
+          <div class="comp-img">
+              <!-- <img src="/img/company.jpeg" alt=""> -->
+            </div>
+            <div class="who-text bg-dark p-2">
+              <h2 class="md-heading">Our Company</h2>
+              <p>
+                  We are a small family computer repair company established in 2002. We provide a quality, professional, computer repair and service for all types of Laptops, Tablets, Smartphones, Desktops, Game consoles, TV’s and  Mobile Phones. We also sell parts and accessories for all computers devices from all major manufacturers (Apple, Samsung, Toshiba, Lenovo, Dell, Acer, Asus, LG, Microsoft, Nokia, Google, Sony, Acer, Compaq,etc).
+              </p>
+      
+            </div>
+
 
       </div>
+      
     </section>
 
     <!--  Prices Section -->
     <section id="price">
+      <div class="prices">
+          <div class="price-text bg-dark p-2">
+              <h2 class="md-heading">Our Prices</h2>
+              <p>
+                  Clonee Computers is complete one stop service for all your laptop / desktop hardware, software and screen repair and support needs. We offer a reliable and convenient solution to all types of machines. No matter what brand of laptop you have, how old or new it is, we can fix it. Our Prices starts from €50. For full price please ask us a qoute.
+              </p>
       
-      <div class="price-text bg-dark p-2">
-        <h2 class="md-heading"><span class="text-primary">Our </span> Prices</h2>
-        <p>
-            Clonee Computers is complete one stop service for all your laptop / desktop hardware, software and screen repair and support needs. We offer a reliable and convenient solution to all types of machines. No matter what brand of laptop you have, how old or new it is, we can fix it. Our Prices starts from €50. For full price please ask us a qoute.
-        </p>
+              <a href="#qoute">
+                  <button class="btn">Ask for a quote</button>
+              </a> 
+      
+              
+            </div>
 
-        <a href="#qoute">
-            <button class="btn">Ask Qoute</button>
-        </a> 
 
-        
       </div>
+      
 
       <div class="price-img"></div>
     </section>
 
     <!-- ---------------Section Clients ------ -->
-    <section id="clients" class="py-1">
+    <section id="clients" class="py-3">
       <div class="container">
-        <h2 class="m-heading text-center">
-          <span class="text-primary">Popular</span> Make
+        <h2 class="md-heading text-center">
+         Popular Make
         </h2>
         <div class="items py-1">
           <div><img src="./img/logos/logo1.png" alt="Clients" /></div>
@@ -175,39 +191,31 @@
 
     <!-- ----------- Testimonials ------ -->
     <section id="testimonials" class="py-3">
-      <div class="container">
-        <h2 class="large-heading">
-          What Our Clients say
+      
+        <h2 class="md-heading">
+          What Our Clients Say
         </h2>
         <div class="testimonial bg-dark">
-          <img src="/img/person1.jpg" alt="person1" />
+          <img src="./img/person1.jpg" alt="person1" />
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam nemo
-            facere quis nulla quisquam incidunt doloribus molestias temporibus
-            corrupti? Tempore ipsam aliquid odio provident ducimus nihil
-            officia! Hic, eaque aperiam quam obcaecati sequi modi dolores
-            laborum possimus excepturi. Facere, adipisci.
+              I took my laptop to clonee computers and they did a great job of repairing it. It was repaired quickly and at a very good price. WP Care Service maintain my website regularly and let me worry free about my website. Great people to do business with.
           </p>
         </div>
 
         <div class="testimonial bg-dark">
-          <img src="/img/person2.jpg" alt="person2" />
+          <img src="./img/person2.jpg" alt="person2" />
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam nemo
-            facere quis nulla quisquam incidunt doloribus molestias temporibus
-            corrupti? Tempore ipsam aliquid odio provident ducimus nihil
-            officia! Hic, eaque aperiam quam obcaecati sequi modi dolores
-            laborum possimus excepturi. Facere, adipisci.
+              Great service. Always quick to respond and solve your problem. John did a wonderful job with repairing/redoing my laptop. He is honest and his prices are very reasonable. If you need a good service do yourself a favor and ask for John from clonee computers.
           </p>
         </div>
-      </div>
+      
     </section>
 
 
     <!-- ---------------Section Contact ------ -->
     <section id="qoute">
-      <div class="qoute-form p-2">
-        <h2 class="md-heading text-center">Ask For Qoutation</h2>
+      <div class="qoute-form py-3">
+        <h2 class="md-heading text-center">Request for a quotation</h2>
         <form action="">
           <div class="form-group">
             <label for="name">Name</label>
@@ -248,48 +256,30 @@
     </section>
 
     <!-- --------------Contact Us --------- -->
-    <section id="contact" class="bg-primary p-2">
+    <section id="contact" class="bg-dark">
       
         <h1 class="md-heading text-center">Contact Us</h1>
         <div class="address">
           <div class="post">
-              <p>
-                  <i class="fas fa-envelope"></i> Main Street Dublin 8.
-              </p>
-            
+              <i class="fas fa-envelope"></i>  Main Street Dublin 8.
+              
           </div>
 
           <div class="phone">
-             <p>
-                <i class="fas fa-phone"></i> +353-1-5555555
-             </p> 
+                <i class="fas fa-phone"></i> <a style="color: #333;" href="tel:015555555">+353-1-5555555</a> 
           </div>
           <div class="location">
-            <p> <i class="fas fa-map-marker-alt"></i>  Area Covered: Dublin City </p>  
-          </div>
-        
+         <i class="fas fa-map-marker-alt"></i>  Area Covered: Dublin City 
         
       </div>
-      
-
     </section>
 
     <!-- Footer -->
-    <footer class="main-footer bg-dark text-center py-1">
-      <div class="container">
+    <footer class="main-footer bg-dark text-center">
           <p>Copyright &copy; 2019, Clonee Computers, All Rights Reserved </p>
-
-      </div>
-      
     </footer>
 
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCudTpfxNB4p7bWJZhajOYs3IE_a4InYMc&callback=initMap"
-    async defer></script>
+   
   </body>
 </html>
 
