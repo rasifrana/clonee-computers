@@ -415,7 +415,9 @@ footer p {
   .container {
     padding: 0;
   }
-
+  .showcase-content {
+    width: 100%;
+  }
   .showcase-content .show-container {
     width: 80%;
   }
