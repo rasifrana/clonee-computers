@@ -376,11 +376,12 @@ footer p {
 
   #navbar ul {
     display: none;
-    background-color: rgba(5, 177, 105, 0.7);
+    background-color: rgba(5, 177, 105, 0.8);
     width: 100%;
     flex-direction: column;
     text-align: center;
     padding: 0.5rem;
+    color: #fff;
   }
 
   #toggle:checked + #menu {
