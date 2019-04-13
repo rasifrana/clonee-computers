@@ -381,7 +381,6 @@ footer p {
     flex-direction: column;
     text-align: center;
     padding: 0.5rem;
-    color: #fff;
   }
 
   #toggle:checked + #menu {
@@ -397,23 +396,19 @@ footer p {
     display: block;
     color: #fff;
     /* margin: 0.5rem; */
-    border-bottom: 1px dotted gray;
-    font-size: 0.7rem;
+    border-bottom: 1px dotted #c9ccce;
+    font-size: 1rem;
   }
 
   .nav {
     position: sticky;
     height: 40px;
-    background-color: rgba(5, 177, 105, 0.7);
+    background-color: rgba(5, 177, 105, 0.8);
   }
 
   .nav label,
   .nav input {
     float: right;
-  }
-
-  .clr {
-    clear: right;
   }
 
   .nav label {
