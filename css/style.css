@@ -48,11 +48,6 @@ p {
   color: #333;
 }
 
-.bg-primary {
-  background: #cfd9dd;
-  color: #fff;
-}
-
 .lrg-heading {
   font-size: 3rem;
   margin-bottom: 0.75rem;
@@ -153,15 +148,14 @@ p {
   color: #fff;
   padding: 0.75rem;
   margin: 0 0.25rem;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 #navbar ul li a:hover {
-  background: rgb(101, 156, 133);
-  border-bottom: 3px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 
-/* --------------------Showcase / Header */
+/* Showcase / Header */
 
 #showcase {
   background: #333 url("../img/showcase.jpg") no-repeat center center/cover;
@@ -177,7 +171,6 @@ p {
   align-items: center;
   text-align: center;
   padding: 0 2rem;
-  /* background-color: rgba(1, 1, 1, 0.3); */
   background: linear-gradient(
     to bottom,
     rgba(0, 1, 1, 0.8),
@@ -189,35 +182,27 @@ p {
   width: 60%;
 }
 
-/* ---------------Style for What Section */
+/* ---------------Style for Services Section */
 
 #service .items {
   display: flex;
   flex-wrap: wrap;
-  /* height: 400px; */
-  /* justify-content: center;
-  align-items: center; */
   padding: 1rem;
 }
 
 #service .items .item {
-  flex: 1 0 32%;
+  flex: 1 1 32%;
   text-align: center;
   padding: 1rem;
 }
 
 #service .items .item i {
-  /* background: rgb(5, 177, 105); */
   color: rgb(5, 177, 105);
   padding: 1rem;
-  border-radius: 50%;
   margin-bottom: 1rem;
 }
 
-/* -------------Section What ---------- */
-/* #who {
-  display: flex;
-} */
+/* Company Section */
 
 .whos {
   display: flex;
@@ -233,7 +218,7 @@ p {
   height: auto;
 }
 
-/* ---------- Section Price */
+/*  Section Price */
 #price {
   display: flex;
 }
@@ -332,12 +317,12 @@ p {
 
 #qoute input[type="submit"] {
   background-color: rgb(5, 177, 105);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   cursor: pointer;
 }
 
 #contact {
-  padding: 0.8rem 1.5rem;
+  padding: 0.8rem 2rem;
 }
 
 #contact div i {
@@ -350,7 +335,7 @@ p {
 
 #contact .address {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 footer p {
