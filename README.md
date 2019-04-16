@@ -79,10 +79,6 @@ Used github pages to host this project on master branch
 
 ## Credits
 
-### Content
-
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
 ### Media
 
 - The photos used in this site were obtained from https://pexels.com and https://unsplash.com
