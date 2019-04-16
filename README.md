@@ -1,20 +1,20 @@
 # Clonee Computers
 
-clonee Computers is a small company who provides Service for all devices including, Desktops, Laptos and Macbooks for repairing and bug fixing.
+Clonee Computers is a small company who provides Service for all devices including, Desktops, Laptos and Macbooks for repairing and bug fixing.
 
 We Provide hardware and software service for configuration and fixing.
 
 ## UX
 
-This is a website for a small company who offers different rage of services providing desktops and laptops services.
+This project is for a small company who offers different range of services providing desktops and laptops repairs, fixes and sale.
 
-A person or business can visit to this website and experience the solution for their problems related to their hardware or software.
+A person or a business can visit to this website and experience the solution for their problems related to their hardware or software.
 
-It is easy tonavigate and made up of sections on a single page.
+It is easy to navigate and made up of sections on a single page.
 
 If a user does not have all the answers then they can submit the form for more details.
 
-- Wireframe for this project links are below
+- Wireframe for this projects (links are below).
 
 - Desktop wireframe: https://github.com/rasifrana/clonee-computers/blob/master/wireframes/Desktop-wireframe.pdf
 
@@ -24,8 +24,7 @@ If a user does not have all the answers then they can submit the form for more d
 
 This project is a single page website and it is divided into 7 Sections
 
-- **Section 1** is Landing Page with picture in the background with overlay and has Mian Title and small paragraph about the services , this company offers.
-  A fixed position of NAVIGATION MENU is relative to viewport with top, left and right 0
+- **Section 1** is Landing Page with picture and overlay in the background and has Main Title and small paragraph about the services , this company offers. A fixed position of NAVIGATION MENU is relative to viewport with top, left and right 0
 
 - **Section 2** is where company offers some of the main services and is divided into 6 cards that consist of Icon, Heading and Paragraph.
   On Mobile view, each card takes up full width of body.

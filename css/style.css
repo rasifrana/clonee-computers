@@ -44,7 +44,7 @@ p {
   color: #333;
 }
 .bg-dark {
-  background: #e0dfdf;
+  background: #f1f0f0;
   color: #333;
 }
 
@@ -271,7 +271,7 @@ p {
 }
 
 #testimonials .testimonial {
-  width: 70%;
+  width: 50%;
   padding: 20px;
   margin: 20px auto;
   border-radius: 10px;
@@ -280,6 +280,8 @@ p {
 
 #testimonials .testimonial img {
   width: 100px;
+  height: 100px;
+
   float: left;
   margin-right: 20px;
   border-radius: 50%;
@@ -292,7 +294,7 @@ p {
 }
 
 .qoute-form {
-  width: 60%;
+  width: 50%;
 }
 
 #qoute .contact-form label {
@@ -315,10 +317,15 @@ p {
   margin-top: 5px;
 }
 
+#qoute .qoute-form select {
+  height: 50px;
+}
+
 #qoute input[type="submit"] {
   background-color: rgb(5, 177, 105);
   font-size: 1.2rem;
   cursor: pointer;
+  color: #fff;
 }
 
 #contact {
@@ -465,8 +472,12 @@ footer p {
     display: none;
   }
 
+  #testimonials .testimonial {
+    width: 70%;
+  }
+
   .qoute-form {
-    width: 90%;
+    width: 80%;
   }
 
   #contact .address {
