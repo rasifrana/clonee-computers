@@ -14,9 +14,11 @@ It is easy tonavigate and made up of sections on a single page.
 
 If a user does not have all the answers then they can submit the form for more details.
 
-- Wireframe for this project link
+- Wireframe for this project links are below
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+- Desktop wireframe: https://github.com/rasifrana/clonee-computers/blob/master/wireframes/Desktop-wireframe.pdf
+
+- Mobile Devices wireframe: https://github.com/rasifrana/clonee-computers/blob/master/wireframes/mobile-wireframe.pdf
 
 ## Features
 
@@ -33,7 +35,7 @@ This project is a single page website and it is divided into 7 Sections
 
 - **Section 4** displays some of the most popular brands with icons.
 
--**Section 5** is a Testimonial Page which has 2 cards. Each card has an image of the customer who shared their experice and opinions.
+- **Section 5** is a Testimonial Page which has 2 cards. Each card has an image of the customer who shared their experice and opinions.
 
 - **Section 6** is a quotation form, that requires Name, Email, Phone and service request and can be submitted.
 
@@ -47,17 +49,18 @@ This project is a single page website and it is divided into 7 Sections
 
 - HTML
 
-  - The project uses **JQuery** to simplify DOM manipulation.
+  - Basic html structure / markup.
 
 - CSS3
 
   - CSS3 for styling the website and used flexbox for layouts and positioning elements.
 
 - Font Awesome
-- to use fonts in this project, link https://fontawesome.com/icons
+
+  - to use fonts in this project, link https://fontawesome.com/icons
 
 - Google fonts
-- to make website beautifully, Montserrat font-family was used referencing https://fonts.google.com/ CDN
+  - to make website beautifully, Montserrat font-family was used referencing https://fonts.google.com/ CDN
 
 ## Testing
 
