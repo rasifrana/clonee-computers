@@ -1,6 +1,6 @@
 # Clonee Computers
 
-clonee Computers is one stop Service for all devices including, Desktops, Laptos and Macbooks.
+clonee Computers is a small company who provides Service for all devices including, Desktops, Laptos and Macbooks for repairing and bug fixing.
 
 We Provide hardware and software service for configuration and fixing.
 
